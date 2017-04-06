@@ -93,6 +93,10 @@ class:center,middle
 # Let's get started!
 ## <a href="https://data.cityofnewyork.us/" target="_blank">NYC Open Data Portal</a>
 
+???
+
+Walkthrough features of Open Data Portal, including search, filtering for authority datasets, data dictionaries, and updates.
+
 ---
 
 # Exercise One (5 Min)
@@ -110,6 +114,10 @@ class:center,middle
 + Open Data Plan and Dashboard
 + Civic Engagement
 
+???
+
+Introduce idea of authorship and also that it's possible for students to engage, comment and interact with civil servants and elected officials.
+
 ---
 
 # Open Data Benefits
@@ -120,12 +128,54 @@ class:center,middle
 
 ---
 
+# Case Study: NYC Parking Tickets
+
+![img-center-90](images/parkingticket.jpg)
+
+.caption[Image Credit: Charleston Parking Ticket by [Charleston's The Digitel](https://www.flickr.com/photos/29456235@N04/5396359471), [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/)]
+
+Source: http://iquantny.tumblr.com/post/87573867759/success-how-nyc-open-data-and-reddit-saved-new
+
+???
+
+The Problem: Parking enforcement can be an important source of revenue for city budgets, but
+when one fire hydrant generates an annual $25,000 in parking tickets, it can be a signal that something's wrong.
+
+---
+
+# Case Study: Data Analysis
+
+![img-center-90](images/forsyth_before.png)
+
+.caption[Screenshot from [Google Street View](https://www.google.com/maps/@40.7181889,-73.9929608,3a,37.5y,246.59h,71.81t/data=!3m6!1e1!3m4!1ssfMgEIL99frCBXgzXLm7PQ!2e0!7i13312!8i6656)]
+
+???
+
+The Analysis: First, Ben Wellington looked at NYPD's Parking Ticket data, available on New York City's Open Data Portal. He quickly identified outliers. Outliers are numbers in the data that don't make sense; they might be very high or very low. In this case he found that two spots in front of fire hydrants generated a combined total of $55,000 in parking tickets for one year.
+
+Next, Wellington found the location of each of the fire hydrants from a field in the open data set, and matched it to an image in Google Street View. He saw that both these spots were set a few feet away from the curb. In fact, the car in this Google Street image had a parking ticket! Maybe drivers mistakenly thought it was legal to park there?
+
+---
+
+# Case Study: Solution
+
+![img-center-90](images/forsyth_after.png).caption[Screenshot from [Google Street View](https://www.google.com/maps/@40.7181889,-73.9929608,3a,37.5y,246.59h,71.81t/data=!3m6!1e1!3m4!1ssfMgEIL99frCBXgzXLm7PQ!2e0!7i13312!8i6656)]
+
+???
+
+The Solution:
+Ben published his findings to his website and New Yorkers took note. Soon after, the Department of Transportation painted stripes over those spots, so drivers could easily identify them as no-parking zones. Would the DOT have known these spots needed clear signage if NYPD hadn't opened their parking ticket data?
+
+---
+
 # Being data-driven doesn't mean blindly following data
 
 ![img-center-200](images/blindlyfollowdata.jpg)
 
 .caption[Image Credit: zhouxuan12345678, [CC BY-SA 2.0](https://creativecommons.org/licenses/by/2.0/), via [Flickr](https://www.flickr.com/photos/53921113@NO2/5453212152)]
 
+
+??? Introduce analysis as an important component to any work with data.
 ---
 
 # Data Analysis
@@ -134,10 +184,18 @@ class:center,middle
 
 ## - Carter Hewgley, Director of Analytics, [Center for Government Excellence](https://govex.jhu.edu/)
 
+???
+Whether your students are going to build apps or include data points in a research paper, students need to be able to find meaning in their data.
+
+
 ---
 
 # 6 Phases of Data Analysis
 ![img-center-90](images/sixphases_1.jpg)
+
+???
+
+How do we do that?  Data analysis!
 
 ---
 
@@ -164,12 +222,25 @@ class: middle
 ![img-center-90](images/fires.png)
 .caption[Image Credit: [NYC Mayor's Office of Data Analytics](http://www1.nyc.gov/site/analytics/index.page), [2013 Annual Report](https://assets.documentcloud.org/documents/1173791/moda-annual-report-2013.pdf)]
 
+???
+
+First try-- asked the wrong questions, collected the wrong data, and the Bronx burned.  Second try-- data analysis is iterative, human and requires openess.
 ---
 
 # Data Collection
 
 ![img-center-80](images/census_tees.jpeg)
 .caption[Image Credit: Carnegie Museum of Natural History]
+
+???
+The Census is a great example for exploring bias and authorship in data collection. We have a complicated history with
+race and racism and it shows as we collect data about our citizens every ten years.
+
+Q: Who conducts the Census?
+A: Dept of Commerce
+Q: Why do you think the Census is under the purview of the Dept of Commerce? How might their oversight influence what questions are asked or what data is collected?
+Draft versions of the 2020 Census included questions about sexuality, but those have been removed:
+http://www.huffingtonpost.com/entry/us-census-lgbt-americans_us_58db3894e4b0cb23e65c6cd9
 
 ---
 
@@ -180,14 +251,9 @@ class: middle
 + What can I learn from this data source?
 + What can I not learn?
 
----
+???
 
-# New Yorkers Save Millions In Parking Tickets
-
-![img-center-70](images/sidewalk-parking.jpg)
-.caption[Image Credit: [Ken Lund](https://www.flickr.com/photos/kenlund/7236966946), [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/)]
-
-[Learn more](http://iquantny.tumblr.com/post/144197004989/the-nypd-was-systematically-ticketing-legally)
+See Heather Partlo's worksheet
 
 ---
 
@@ -197,7 +263,7 @@ class: middle
 
 + Takes up the most amount of time
 
-+ May require more sophisticated tools depending on the state and size of the data
++ Set expectations for your students
 
 ---
 
@@ -211,6 +277,10 @@ class: middle
 
 # Hypothesis Testing
 
++ What borough has the most noise complaints?
++ What time of day do people complain the most?
+
+<!---Add screenshots of pivot tables or charts-->
 
 ---
 
@@ -218,6 +288,9 @@ class: middle
 
 ![img-center-80](images/athensprotest.jpg)
 .caption[Image Credit: [http://underclassrising.net](https://www.flickr.com/photos/0742/4163565280), [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/)]
+
+
+<!-- Add slide with screenshot of WPost corrections-->
 
 ---
 
@@ -229,29 +302,14 @@ class: middle
 
 ---
 
-# 6. Visualization
+# Data Visualization
 
 + “A picture is worth a thousand words”
 
 + Communicate results clearly and concisely
 
----
-
-# Open Data Concerns
-
-+ Privacy (Personally identifiable information (PII), Mosaic Effect)
-
-+ Confidentiality
-
-+ Security
----
-
-# The Mosaic Effect in Action
-
-![img-center-70](images/nyctaxi.jpeg)
-.caption[Image Credit: Kenny Louie, [CC BY 2.0](http://creativecommons.org/licenses/by/2.0), via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File%3ANYC_TAXI_(7038011669).jpg)]
-
-[Gawker matches Taxi and Limousine Data with Paparazzi Photos](http://gawker.com/the-public-nyc-taxicab-database-that-accidentally-track-1646724546)
+???
+Might be a student project. Could involve critiques of bias or implications. Could be showcase of storytelling and artistic expression.
 
 ---
 
@@ -265,6 +323,8 @@ class: middle
 # Finding Context
 
 ![img-center-80](images/context.png)
+
+<!-- maybe replace image with BPL -->
 
 ---
 
@@ -310,10 +370,25 @@ class: middle
  -->
 ---
 
+# Privacy & Security
+
++ Privacy: Does open data expose private citizens?
+
++ Security: Does open data expose risks to public safety?
+---
+
+# The Mosaic Effect in Action
+
+![img-center-70](images/nyctaxi.jpeg)
+.caption[Image Credit: Kenny Louie, [CC BY 2.0](http://creativecommons.org/licenses/by/2.0), via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File%3ANYC_TAXI_(7038011669).jpg)]
+
+[Gawker matches Taxi and Limousine Data with Paparazzi Photos](http://gawker.com/the-public-nyc-taxicab-database-that-accidentally-track-1646724546)
+
+---
+
 # Links to Other Open Data Portals
 + New York State - https://data.ny.gov
 + US Federal Government - https://www.data.gov/
-
 
 ---
 
